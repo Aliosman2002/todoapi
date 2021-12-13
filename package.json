@@ -1,0 +1,24 @@
+{
+  "name": "todoapi",
+  "version": "1.0.0",
+  "description": "this api is for our todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Todo",
+    "App"
+  ],
+  "author": "Prince Ali",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.1"
+  },
+  "type": "module"
+}
